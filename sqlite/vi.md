@@ -12,7 +12,7 @@ Hãy cùng xem các ưu và nhược điểm của SQLite.
 
 - SQLite hỗ trợ bộ nhớ trong. Bộ nhớ trong của SQLite nhanh gấp gần 2 lần nếu như bạn hiểu về vấn đề phân trang. Nó đủ nhanh.
 
-- SQLite là đơn luồng. Vì vậy, nguy cơ hỏng dữ liệu được gỉam thiểu tối đa.
+- SQLite là đơn luồng. Vì vậy, nguy cơ hỏng dữ liệu được giảm thiểu tối đa.
 
 - Cơ sở dữ liệu SQLite nằm trong một file. Vì vậy, chúng ta có thể di chuyển cơ sở dữ liệu và truy cập bởi nền tảng khác rất dễ dàng. 
 
@@ -34,7 +34,7 @@ Hãy cùng xem các ưu và nhược điểm của SQLite.
 
 ### Thực hiện ghi đa luồng cùng một lúc.
 
-Bây giờ ta sẽ cố gắng tìm ra mẹo nhỏ để làm cho các thao tác ghi được thực hiện gần như cùng một lúc.
+Bây giờ tôi sẽ cố gắng chỉ ra mẹo nhỏ để làm cho các thao tác ghi được thực hiện gần như cùng một lúc.
 
 **Chú ý: SQLite không bao giờ cho phép bạn thực hiện ROW LEVEL LOCK. Do vậy, ta không cần phải lãng phí thời gian để tìm kiếm về nó.**
 
